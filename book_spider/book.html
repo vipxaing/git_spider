@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>书籍分类信息</title>
+    <link href="http://cdn.bootcss.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="panel panel-success">
+            <div class="panel-heading">
+                <h3 class="panel-title">书籍信息</h3>
+            </div>
+            <div class="panel-body">
+                <!--左侧导航-->
+                <div class="col-md-2" id="navList">
+                    <!--左侧导航的内容-->
+                </div>
+                <!--右侧内容区域-->
+                <div class="col-md-10">
+                      <div class="input-group">
+                            <input type="text" id="txtSearch" placeholder="请输入查询关键字" class="form-control">
+                            <span class="input-group-btn">
+                                <button id="btnSearch" class="btn btn-default" type="button">Go!</button>
+                            </span>
+                      </div> 
+                      <div id="booksContainer">
+                            <!--书籍内容-->
+                      </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="http://cdn.bootcss.com/jquery/2.1.4/jquery.min.js"></script>
+    <script src="http://cdn.bootcss.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script src="js/book.js"></script>
+</body>
+</html>
